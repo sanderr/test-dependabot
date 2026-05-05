@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "test-dependabot"
+version = "0.0.1"
+requires-python = ">= 3.13"
+dependencies = [
+	"more-itertools~=10.0",
+	"setuptools>=79,<81",
+]
