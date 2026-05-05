@@ -9,4 +9,5 @@ requires-python = ">= 3.13"
 dependencies = [
 	"more-itertools~=10.0",
 	"setuptools>=79,<81",
+	"pytest>=8,<9",
 ]
