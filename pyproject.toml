@@ -9,7 +9,7 @@ requires-python = ">= 3.13"
 dependencies = [
 	"more-itertools~=10.0",
 	"setuptools>=79,<81",
-	"pytest>=8,<9",
+	"pytest>=8,<10",
 	"lxml>=5.1,<6",
 	"flake8>5,<6",
 ]
