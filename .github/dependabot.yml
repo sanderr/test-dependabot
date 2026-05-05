@@ -1,0 +1,12 @@
+version: 2
+updates:
+- target-branch: main
+  package-ecosystem: pip
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  allow:
+    # Allow both direct and indirect updates for all packages
+    - dependency-type: "all"
+  versioning-strategy: increase-if-necessary
