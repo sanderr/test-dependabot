@@ -10,6 +10,6 @@ dependencies = [
 	"more-itertools~=10.0",
 	"setuptools>=79,<81",
 	"pytest>=8,<9",
-	"lxml>=5.1,<6",
+	"lxml>=5.1,<7",
 	"flake8>5,<6",
 ]
